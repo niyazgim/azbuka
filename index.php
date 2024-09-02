@@ -1,5 +1,6 @@
 <?php
 
+session_start();
 require_once('database/connect.php');
 require_once('app/Http/Controllers/Auth/LoginUserController.php');
 
