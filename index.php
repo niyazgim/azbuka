@@ -1,5 +1,8 @@
 <?php
 
+require_once('database/connect.php');
+require_once('app/Http/Controllers/Auth/LoginUserController.php');
+
 $requestUri = $_SERVER['REQUEST_URI'];
 $requestMethod = $_SERVER['REQUEST_METHOD'];
 
@@ -22,7 +25,7 @@ $routes = [
       include("resources/views/login.php");
     },
     'POST' => function () {
-      echo 'Processing login...';
+      login();
     },
   ],
 ];
