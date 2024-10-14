@@ -16,7 +16,7 @@ Azbuka is the grocery store web-app example.
 ## How to run
 
 1) Copy the `env.example` file and rename it into `.env`.
-2) Configure (database connection parameters).
+2) Configure (database connection parameters) in file `.env`.
 
 ```.env
 DB_CONNECTION=mysql
@@ -27,19 +27,19 @@ DB_USERNAME=YOUR_DB_USERNAME
 DB_PASSWORD=YOUR_DB_PASSWORD
 ```
 
-3) Generate app key
+3) Generate app key.
 
 ```shell
 php artisan key:generate
 ```
 
-4) Run migrations
+4) Run migrations.
 
 ```shell
 php artisan migrate
 ```
 
-5) Start the app
+5) Start the app.
 
 ```shell
 php artisan serve

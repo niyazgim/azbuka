@@ -15,8 +15,8 @@ Azbuka - это пример вэб-приложения по продаже п�
 
 ## How to run
 
-1) Copy the `env.example` file and rename it into `.env`.
-2) Configure (database connection parameters).
+1) Скопируйте файл `env.example` и переименуйте его в `.env`.
+2) Выполните настройку (конкректно параметры подключения к бд) в файле `.env`.
 
 ```.env
 DB_CONNECTION=mysql
@@ -27,19 +27,19 @@ DB_USERNAME=YOUR_DB_USERNAME
 DB_PASSWORD=YOUR_DB_PASSWORD
 ```
 
-3) Generate app key
+3) Сгенерируйте ключ приложения.
 
 ```shell
 php artisan key:generate
 ```
 
-4) Run migrations
+4) Запустите миграции.
 
 ```shell
 php artisan migrate
 ```
 
-5) Start the app
+5) Запустите приложение.
 
 ```shell
 php artisan serve
