@@ -1,0 +1,9 @@
+.container {
+  margin: 0 auto;
+  width: clamp(1400px, 1000px, 100%);
+}
+
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+.input_container+.input_container {
+  margin-top: 1rem;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #f0f0f0;
+  margin-bottom: 0.2rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+input {
+  background: none;
+  border: 1px solid #161616;
+  color: #fbfbfb;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  outline: 0px;
+}
+
+input:focus {
+  border: 1px solid #1e1e1e;
+}
+
+#productForm {
+  margin-top: 3rem;
+  margin-inline: auto;
+}
+
+form {
+  padding: 1rem;
+  background: #121212;
+  border-radius: 0.5rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  margin-top: 1.5rem;
+}

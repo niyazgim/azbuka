@@ -1,0 +1,80 @@
+.profile {
+  height: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: relative;
+  left: 5rem;
+  padding-inline: 2rem;
+  padding-top: 1rem;
+  width: calc(100% - 5rem);
+  min-height: 100%;
+  transition: all 0.5s ease;
+  z-index: 2;
+}
+
+.danger-zone {
+  margin-top: 2rem;
+  border-top: 1px solid #cc0606;
+  padding: 1rem;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0.5rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 1000px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar img {
+  height: 100%;
+}
+
+.profile__info {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Aside pannel */
+.pannel {
+  z-index: 99;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 5rem;
+  height: 100%;
+  padding: 1rem;
+  background-color: #333333;
+  transition: all 0.5s ease;
+}
+
+.pannel.open {
+  width: 15rem;
+}
+
+.pannel.open~.content {
+  left: 15rem;
+  width: calc(100% - 15rem);
+}
+
+/* .pannel__content {
+  transition: 0.3s ease-out;
+  margin-top: 2rem;
+} */
