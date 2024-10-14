@@ -2,7 +2,7 @@
 
 Azbuka is the grocery store web-app example.
 
-## Current stack 
+## App stack 
 
 1) **Backend**
     1) Laravel
