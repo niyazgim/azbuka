@@ -1,6 +1,6 @@
 # Azbuka
 
-Azbuka is the grocery store web-app example.
+Azbuka - это пример вэб-приложения по продаже продуктов питания.
 
 ## Current stack 
 
